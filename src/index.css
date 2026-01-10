@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+/* Global styles */
+:root {
+  font-family: "Inter", sans-serif;
+  background: #fce7f3; /* soft light pink */
+}
+
+/* TECHNOLOGIES SECTION */
+
+.tech-grid {
+  @apply mt-6 flex flex-wrap justify-center gap-6;
+}
+
+.tech-heading {
+  @apply text-center text-xl font-semibold text-pink-800;
+}
+
+.tech-card {
+  @apply flex h-28 w-28 flex-col items-center justify-center rounded-xl 
+         bg-white/70 backdrop-blur-md 
+         border border-stone-300
+         p-4 text-stone-800 shadow-sm
+         transition-all duration-300
+         hover:-translate-y-1 hover:shadow-lg hover:border-rose-400;
+}
