@@ -4,6 +4,8 @@ import profilePic from "../assets/raviKumarProfile.webp";
 const HERO_CONTENT =
   "I am an early-career technologist with experience in project coordination, application development, and computer vision. I have worked with Python, Java, and modern web tools, and I enjoy learning quickly, adapting to new challenges, and contributing wherever I can add value. I’m actively seeking an opportunity to grow within a supportive, impact-driven team.";
 
+const resumeUrl = `${import.meta.env.BASE_URL}resume.pdf`;
+
 const Hero = () => {
   const shouldReduceMotion = useReducedMotion();
 
@@ -43,7 +45,7 @@ const Hero = () => {
             </p>
 
             <a
-              href="/resume.pdf"
+              href={resumeUrl}
               target="_blank"
               rel="noopener noreferrer"
               download

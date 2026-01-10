@@ -176,7 +176,7 @@ const Projects: React.FC = () => {
               onClick={() => setMarinaPdfOpen(true)}
               className="rounded-xl border border-pink-300 bg-white/80 px-5 py-2.5 text-sm font-semibold text-pink-800 shadow-sm transition hover:bg-white hover:shadow-md"
             >
-              View Kickoff Slides
+              View Kickoff Slides- Team 2
             </button>
           </div>
 
