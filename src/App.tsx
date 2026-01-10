@@ -1,9 +1,9 @@
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Technologies from "./components/Technologies";
-import Projects from "./components/Projects";
-import Experience from "./components/experience";
 import Contact from "./components/Contact";
+import Experience from "./components/experience";
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
+import Technologies from "./components/Technologies";
 
 const App = () => {
   return (

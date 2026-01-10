@@ -114,15 +114,6 @@ const Contact: React.FC = () => {
   );
 };
 
-const MiniStat: React.FC<{ label: string; value: string }> = ({ label, value }) => (
-  <div className="rounded-xl border border-pink-200 bg-white/85 px-4 py-3">
-    <p className="text-[11px] font-semibold uppercase tracking-wide text-pink-800">
-      {label}
-    </p>
-    <p className="mt-1 font-medium text-neutral-900">{value}</p>
-  </div>
-);
-
 const CopyTile: React.FC<{
   title: string;
   value: string;

@@ -2,14 +2,13 @@ import React, { useState } from "react";
 import { motion, useReducedMotion } from "framer-motion";
 import PdfModal from "./PdfModal";
 import VideoModal from "./VideoModal";
-
-/** ---------- Assets (must live in /public) ---------- */
-const catScanVideoUrl = "/projects/catscan/demo.mp4";
-const catScanCoverImg = "/projects/catscan/cover.png";
-const catScanAppPdfUrl = "/projects/catscan/CATscan-App.pdf";
-const catScanAlgoPdfUrl = "/projects/catscan/CatScan-Algorithm.pdf";
-
-const marinaKickoffPdfUrl = "/projects/marina/HawkIsland-Kickoff.pdf";
+import {
+  catScanAlgoPdfUrl,
+  catScanAppPdfUrl,
+  catScanCoverImg,
+  catScanVideoUrl,
+  marinaKickoffPdfUrl,
+} from "../constants/projects";
 
 /** ---------- Tags ---------- */
 const catScanAppTags = ["Swift", "Xcode", "iOS", "CoreML", "Camera & Photos", "UI/UX"];
