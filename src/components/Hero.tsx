@@ -1,5 +1,5 @@
 import { motion, useReducedMotion } from "framer-motion";
-import profilePic from "../assets/raviKumarProfile.webp";
+import profilePic from "../assets/alexMallquiProfile.webp";
 
 const HERO_CONTENT =
   "I am an early-career technologist with experience in project coordination, application development, and computer vision. I have worked with Python, Java, and modern web tools, and I enjoy learning quickly, adapting to new challenges, and contributing wherever I can add value. I’m actively seeking an opportunity to grow within a supportive, impact-driven team.";
@@ -32,7 +32,7 @@ const Hero = () => {
             animate={shouldReduceMotion ? { opacity: 1 } : { opacity: 1, y: 0 }}
             transition={{ duration: 0.7, ease: "easeOut", delay: 0.1 }}
           >
-            <h2 className="pb-2 text-4xl tracking-tighter lg:text-8xl text-stone-900">
+            <h2 className="pb-6 text-5xl tracking-tighter lg:text-9xl text-stone-900">
               Alexandra Mallqui
             </h2>
 
